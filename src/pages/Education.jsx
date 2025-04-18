@@ -100,18 +100,19 @@ const Education = () => {
       {/* Interview Prep */}
       <div className='px-5 sm:px-16 mt-10 sm:mt-14'>
         <GradualSpacing
-          className="text-center text-xl font-extrabold tracking-tighter  text-black md:text-7xl font-serif"
+          className="text-center text-4xl font-extrabold tracking-tighter  text-black md:text-7xl font-serif"
           text="Interview Preparation"
         />
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mt-2 sm:mt-5">
           {interview.map((card, index) => (
-            <Card
-              key={index}
-              path={card.path}
-              title={card.title}
-              description={card.description}
-              link={card.link}
-            />
+            <div key={index} className="flex">
+              <Card
+                path={card.path}
+                title={card.title}
+                description={card.description}
+                link={card.link}
+              />
+            </div>
           ))}
         </div>
       </div>
@@ -124,13 +125,14 @@ const Education = () => {
         />
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mt-2 sm:mt-5">
           {partnership.map((card, index) => (
-            <Card
-              key={index}
-              path={card.path}
-              title={card.title}
-              description={card.description}
-              link={card.link}
-            />
+            <div key={index} className="flex">
+              <Card
+                path={card.path}
+                title={card.title}
+                description={card.description}
+                link={card.link}
+              />
+            </div>
           ))}
         </div>
       </div>
@@ -143,13 +145,14 @@ const Education = () => {
         />
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mt-2 sm:mt-5">
           {masterClass.map((card, index) => (
-            <Card
-              key={index}
-              path={card.path}
-              title={card.title}
-              description={card.description}
-              link={card.link}
-            />
+            <div key={index} className="flex">
+              <Card
+                path={card.path}
+                title={card.title}
+                description={card.description}
+                link={card.link}
+              />
+            </div>
           ))}
         </div>
       </div>
@@ -162,13 +165,14 @@ const Education = () => {
         />
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mt-2 sm:mt-5">
           {otherPackages.map((card, index) => (
-            <Card
-              key={index}
-              path={card.path}
-              title={card.title}
-              description={card.description}
-              link={card.link}
-            />
+            <div key={index} className="flex">
+              <Card
+                path={card.path}
+                title={card.title}
+                description={card.description}
+                link={card.link}
+              />
+            </div>
           ))}
         </div>
       </div>

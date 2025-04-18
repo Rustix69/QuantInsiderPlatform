@@ -34,7 +34,7 @@ const Talks = () => {
         </p>
         
         {/* Filter Buttons with Enhanced Blur Animation */}
-        <div className="flex justify-center gap-4 mb-12 relative">
+        <div className="flex justify-center gap-4 mb-12 px-10 sm:px-10 relative">
           {/* Decorative Blobs for Animation - More vibrant colors and larger size */}
           <div className="absolute -z-10 top-1/2 left-1/4 transform -translate-x-1/2 -translate-y-1/2 w-40 h-40 bg-purple-500/30 rounded-full blur-3xl animate-blob"></div>
           <div className="absolute -z-10 top-1/2 right-1/4 transform translate-x-1/2 -translate-y-1/2 w-40 h-40 bg-blue-500/30 rounded-full blur-3xl animate-blob animation-delay-2000"></div>

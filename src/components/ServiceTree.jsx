@@ -14,7 +14,7 @@ export default function ServicesTree() {
     return (
         <div className="flex flex-col items-center justify-center">
             <motion.div
-                className='text-center text-black text-3xl mt-20 md:text-4xl lg:text-6xl tracking-tighter font-extrabold'
+                className='text-center text-black text-3xl mt-10 md:text-4xl lg:text-6xl tracking-tighter font-extrabold'
                 initial={{ scale: 0 }}
                 animate={{ scale: 1 }}
                 transition={{ duration: 0.5 }}
@@ -23,7 +23,7 @@ export default function ServicesTree() {
             </motion.div>
             <p className='text-center text-xs lg:text-2xl font-serif font-extralight lg:mt-10 tracking-tighter px-5 lg:px-20'>We offer hiring services tailored to the unique needs of:</p>
 
-            <div className="relative mt-10 flex flex-wrap justify-center gap-10 max-w-4xl">
+            <div className="relative mt-10 flex flex-wrap justify-center gap-5 sm:gap-10 max-w-4xl">
                 {services.map((service, index) => (
                     <motion.div
                         key={index}
@@ -31,6 +31,7 @@ export default function ServicesTree() {
                         initial={{ opacity: 0, y: -20 }}
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ delay: index * 0.3 }}
+                        whileHover={{ scale: 1.05 }}
                     >
                         <div>
                             {service}

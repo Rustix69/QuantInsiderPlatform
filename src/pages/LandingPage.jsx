@@ -25,7 +25,7 @@ const LandingPage = () => {
                 {/* Hero Section with improved mobile layout */}
                 <div className='px-4 sm:px-8 mt-8 lg:mt-24 flex flex-col items-center'>
                     {/* Main Heading - Adjusted font sizes for better responsiveness */}
-                    <div className='text-2xl sm:text-3xl md:text-4xl lg:text-5xl gradient-title tracking-tighter font-extrabold text-center max-w-4xl'>
+                    <div className='text-3xl sm:text-3xl md:text-4xl lg:text-5xl gradient-title tracking-tighter font-extrabold text-center max-w-4xl'>
                         Quant Insider is a 360 Degrees Eco System of Quant Finance
                     </div>
 
@@ -37,7 +37,7 @@ const LandingPage = () => {
 
                     {/* Logo with better sizing */}
                     <div className='flex flex-col items-center justify-center mt-4 sm:mt-6'>
-                        <img src='/landing.png' alt='Quant Insider' className='h-60 sm:h-60 md:h-60 lg:h-96 object-contain' />
+                        <img src='/landing.png' alt='Quant Insider' className='h-72 sm:h-60 md:h-60 lg:h-96 object-contain' />
                     </div>
 
                     {/* Call to Action Buttons */}
@@ -53,7 +53,7 @@ const LandingPage = () => {
                                     <span className="whitespace-nowrap">Market Making Game</span>
                                 </ShinyButton>
                             </Link>
-                            <Link to="https://quantinsider.algobulls.com/phoenix/splash" target="_blank" className="w-full">
+                            <Link to="https://quantinsider.algobulls.com/phoenix/splash" target="_blank" className="w-full sm:block hidden">
                                 <ShinyButton className="font-semibold tracking-tighter w-full py-4 px-4 sm:h-16 flex items-center justify-center">
                                     <span className="whitespace-nowrap">Algo Trading Platform</span>
                                 </ShinyButton>

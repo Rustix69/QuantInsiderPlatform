@@ -52,9 +52,9 @@ const Hiring = () => {
       {/* Our Expertise */}
       <div className='flex flex-col items-center mt-10 sm:mt-24'>
         <h1 className='text-center text-black text-3xl md:text-4xl lg:text-6xl tracking-tighter font-extrabold'>Our Expertise</h1>
-        <div className='flex justify-between px-16 mt-10 gap-3 w-full'>
+        <div className='flex flex-col md:flex-row justify-between px-4 md:px-16 mt-10 gap-6 w-full'>
           <ShineBorder
-            className="relative w-1/6 flex h-auto flex-col py-10 items-start justify-start rounded-lg border bg-background md:shadow-xl"
+            className="relative w-full md:w-1/6 flex h-auto flex-col py-10 items-start justify-start rounded-lg border bg-background md:shadow-xl"
             color={["#A07CFE", "#FE8FB5", "#FFBE7B"]}
           >
             <span className="pointer-events-none whitespace-pre-wrap bg-gradient-to-b from-black to-gray-500/80 bg-clip-text text-xl font-bold leading-none text-transparent">
@@ -66,7 +66,7 @@ const Hiring = () => {
             </div>
           </ShineBorder>
           <ShineBorder
-            className="relative w-1/6 flex h-auto flex-col py-10 items-start justify-between rounded-lg border bg-background md:shadow-xl"
+            className="relative w-full md:w-1/6 flex h-auto flex-col py-10 items-start justify-between rounded-lg border bg-background md:shadow-xl"
             color={["#A07CFE", "#FE8FB5", "#FFBE7B"]}
           >
             <span className="pointer-events-none whitespace-pre-wrap bg-gradient-to-b from-black to-gray-500/80 bg-clip-text text-xl font-bold leading-none text-transparent">
@@ -78,7 +78,7 @@ const Hiring = () => {
             </div>
           </ShineBorder>
           <ShineBorder
-            className="relative w-1/6 flex h-auto flex-col py-10 items-start justify-start rounded-lg border bg-background md:shadow-xl"
+            className="relative w-full md:w-1/6 flex h-auto flex-col py-10 items-start justify-start rounded-lg border bg-background md:shadow-xl"
             color={["#A07CFE", "#FE8FB5", "#FFBE7B"]}
           >
             <span className="pointer-events-none whitespace-pre-wrap bg-gradient-to-b from-black to-gray-500/80 bg-clip-text text-xl font-bold leading-none text-transparent">
@@ -90,7 +90,7 @@ const Hiring = () => {
             </div>
           </ShineBorder>
           <ShineBorder
-            className="relative w-1/6 flex h-auto flex-col py-10 items-start justify-start rounded-lg border bg-background md:shadow-xl"
+            className="relative w-full md:w-1/6 flex h-auto flex-col py-10 items-start justify-start rounded-lg border bg-background md:shadow-xl"
             color={["#A07CFE", "#FE8FB5", "#FFBE7B"]}
           >
             <span className="pointer-events-none whitespace-pre-wrap bg-gradient-to-b from-black to-gray-500/80 bg-clip-text text-xl font-bold leading-none text-transparent">
@@ -102,7 +102,7 @@ const Hiring = () => {
             </div>
           </ShineBorder>
           <ShineBorder
-            className="relative w-1/6 flex h-auto flex-col py-10 items-start justify-between rounded-lg border bg-background md:shadow-xl"
+            className="relative w-full md:w-1/6 flex h-auto flex-col py-10 items-start justify-between rounded-lg border bg-background md:shadow-xl"
             color={["#A07CFE", "#FE8FB5", "#FFBE7B"]}
           >
             <span className="pointer-events-none whitespace-pre-wrap bg-gradient-to-b from-black to-gray-500/80 bg-clip-text text-xl font-bold leading-none text-transparent">
@@ -122,15 +122,15 @@ const Hiring = () => {
           Targeted Talent Acquisition
         </h1>
 
-        <div className="flex flex-wrap justify-around px-10 w-full mt-10 gap-5">
-          <NeonGradientCard className="flex-1 min-w-[300px]">
+        <div className="flex flex-col md:flex-row justify-around px-4 md:px-10 w-full mt-10 gap-6">
+          <NeonGradientCard className="w-full md:flex-1 min-w-[300px]">
             <h3 className="text-2xl font-bold">Entry-Level Candidates</h3>
             <p className="text-lg mt-2">
               Fresh minds with strong quantitative foundations, eager to innovate and learn within dynamic trading environments.
             </p>
           </NeonGradientCard>
 
-          <NeonGradientCard className="flex-1 min-w-[300px]">
+          <NeonGradientCard className="w-full md:flex-1 min-w-[300px]">
             <h3 className="text-2xl font-bold">Mid-Level Candidates</h3>
             <p className="text-lg mt-2">
               Experienced professionals with a proven track record of success in quantitative finance, ready to take on leadership roles or specialized functions.
@@ -144,9 +144,9 @@ const Hiring = () => {
 
 
       {/* Partner */}
-      <div className='mt-20 px-20'>
+      <div className='mt-20 px-4 md:px-20'>
         <h1 className='text-center text-black text-3xl md:text-4xl lg:text-6xl tracking-tighter font-extrabold'>Why Partner with Quant Insider ?</h1>
-        <div className="grid grid-cols-1 md:grid-cols-2 mt-10 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 mt-10 gap-8">
           {reasons.map((reason, index) => (
             <div
               key={index}
