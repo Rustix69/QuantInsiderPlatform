@@ -9,6 +9,7 @@ import About from './pages/About';
 import Job from './pages/Job';
 import Hiring from './pages/Hiring';
 import Talks from './pages/Talks';
+import Team from './pages/Team';
 
 function App() {
 
@@ -36,6 +37,9 @@ function App() {
       },{
         path: "/talks",
         element: <Talks/>
+      },{
+        path: "/team",
+        element: <Team/>
       }
     ]
   }])

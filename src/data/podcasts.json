@@ -38,5 +38,21 @@
     "thumbnailUrl": "https://i.ytimg.com/vi/5kmWFHWVpxA/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&amp;rs=AOn4CLAXMXgS-27Nhavr0Cb1TRl3ITDxPw",
     "playLink": "https://www.youtube.com/watch?v=5kmWFHWVpxA",
     "type": "podcast"
+  },
+  {
+    "id": 6,
+    "title" : "Introduction to Quantitative Finance Accelerator Program",
+    "description": "In this webinar, Pankaj Mani (Founder of LAQSA) and Tribhuvan Bisen (Founder of Quant Insider) provide a detailed overview of the Quant Finance domain and the Quantitative Finance Accelerator Program.",
+    "thumbnailUrl": "https://i.ytimg.com/vi/stYrTuU7Ycs/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLCjT82319HH3VF9s5xNJqFd9kRG-g",
+    "playLink": "https://youtu.be/stYrTuU7Ycs?si=3-ougYmKQNavHmIW",
+    "type": "seminar"
+  },
+  {
+    "id": 7,
+    "title": "Deep Dive into Volatility Trading (Options Trading) ft. Kris Abdelmessih founder @moontower-ai",
+    "description": "In this episode, we are joined by Kristopher Abdelmessih, a seasoned options trader with over two decades of experience in the financial markets. Kris began his career on the trading floors with Susquehanna International Group (SIG), where he honed his skills in options trading and market-making. He later moved to Parallax, where he ran a relative value commodities volatility book. Beyond his trading endeavors, Kris is the author of the Moontower Blog, where he shares insights on options, trading strategies, and market dynamics.",
+    "thumbnailUrl" : "https://i.ytimg.com/vi/TpMTVFdxjQI/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLDJKhkdnERg05-ojzUNDtpFkk5oKQ",
+    "playLink": "https://youtu.be/TpMTVFdxjQI?si=y5dE4ejXAPKMpGGQ ",
+    "type": "podcast"
   }
 ]
