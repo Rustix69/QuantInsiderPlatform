@@ -24,7 +24,7 @@ const Header = () => {
             <div className='flex justify-between items-center px-6 gap-2 sm:px-10 lg:px-20 py-4 tracking-tighter'>
                 {/* Logo Section */}
                 <Link to="/">
-                    <img src='./logo.png' alt='Quant Insider' className='h-7 sm:h-8 md:h-10' />
+                    <img src='./logo.png' alt='Quant Insider' className='h-6 sm:h-8 md:h-10' />
                 </Link>
 
                 {/* Navigation Section - Hidden on mobile */}

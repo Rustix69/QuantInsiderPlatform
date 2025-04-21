@@ -11,15 +11,29 @@
 }
 
 .gradient-title {
-    font-weight: bold; 
-    background: radial-gradient(circle, rgba(0, 0, 0, 0.8) 0%, rgb(230, 144, 64) 65%, rgba(106, 157, 214, 1) 90%);
+    font-weight: 400;
+
+    @media (min-width: 768px) {
+        font-size: 3.5rem;
+        line-height: 1.2;
+    }
+
+    @media (max-width: 1023px) {
+        font-size: 1.2rem;
+        line-height: 1.2;
+    }
+
+    font-family: "Poetsen One",
+    sans-serif;
+    background: radial-gradient(circle,rgb(202, 130, 63) 10%, rgb(98, 152, 214) 85%);
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
     -webkit-text-fill-color: transparent;
 }
 
-
-
-
-
+.poetsen-one-regular {
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
