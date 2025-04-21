@@ -43,9 +43,9 @@ const Enterprise = () => {
         <BlurIn
           word="Enterprise"
           duration={1}
-          className="text-center sm:text-start text-4xl sm:text-6xl md:text-7xl lg:text-8xl gradient-title font-extrabold tracking-tighter"
+          className="text-center sm:text-start gradient-title-2 font-extrabold tracking-tighter"
         />
-        <TypingAnimation className='text-center  sm:text-start text-2xl md:text-4xl tracking-tighter font-semibold py-2'>Gen AI powered Hedge Fund in a Box</TypingAnimation>
+        <TypingAnimation className='text-center  sm:text-start text-base md:text-4xl tracking-tighter font-semibold py-2'>Gen AI powered Hedge Fund in a Box</TypingAnimation>
         <div>
           <div className='w-full flex flex-col sm:flex-row py-5'>
             <div className="flex flex-col w-full sm:w-1/4 gap-4 p-4">

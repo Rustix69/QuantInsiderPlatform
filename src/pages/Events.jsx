@@ -11,9 +11,9 @@ const Events = () => {
         <BlurIn
           word="EVENTS"
           duration={1}
-          className="text-center sm:text-start text-4xl sm:text-6xl md:text-7xl lg:text-8xl gradient-title font-extrabold tracking-tighter"
+          className="text-center sm:text-start gradient-title-2 font-extrabold"
         />
-        <TypingAnimation duration={70} className='text-center  sm:text-start text-2xl md:text-4xl tracking-tighter font-semibold py-2'>Explore our quant conference and event highlights</TypingAnimation>
+        <TypingAnimation duration={70} className='text-center  sm:text-start text-base md:text-4xl tracking-tighter font-semibold py-2'>Explore our quant conference and event highlights</TypingAnimation>
       </div>
       <TimelineDemo/>
     </div>

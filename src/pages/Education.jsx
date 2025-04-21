@@ -100,7 +100,7 @@ const Education = () => {
       {/* Interview Prep */}
       <div className='px-5 sm:px-16 mt-10 sm:mt-14'>
         <GradualSpacing
-          className="text-center text-4xl font-extrabold tracking-tighter  text-black md:text-7xl font-serif"
+          className="text-center text-2xl font-extrabold tracking-tighter  text-black md:text-7xl font-serif"
           text="Interview Preparation"
         />
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mt-2 sm:mt-5">
@@ -120,7 +120,7 @@ const Education = () => {
       {/* Partnership Courses */}
       <div className='px-5 sm:px-16 mt-10 sm:mt-14'>
         <GradualSpacing
-          className="text-center text-xl font-extrabold tracking-tighter  text-black md:text-7xl font-serif"
+          className="text-center text-2xl font-extrabold tracking-tighter  text-black md:text-7xl font-serif"
           text="Partnership Courses"
         />
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mt-2 sm:mt-5">
@@ -140,7 +140,7 @@ const Education = () => {
       {/* Master Class */}
       <div className='px-5 sm:px-16 mt-10 sm:mt-16'>
         <GradualSpacing
-          className="text-center text-xl font-extrabold tracking-tighter  text-black md:text-7xl font-serif"
+          className="text-center text-2xl font-extrabold tracking-tighter  text-black md:text-7xl font-serif"
           text="Quant Finance MasterClass"
         />
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mt-2 sm:mt-5">
@@ -160,7 +160,7 @@ const Education = () => {
       {/* Other Packages */}
       <div className='px-5 sm:px-16 mt-10 sm:mt-16'>
         <GradualSpacing
-          className="text-center text-3xl font-extrabold tracking-tighter  text-black md:text-7xl font-serif"
+          className="text-center text-2xl font-extrabold tracking-tighter  text-black md:text-7xl font-serif"
           text="Other Packages"
         />
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mt-2 sm:mt-5">

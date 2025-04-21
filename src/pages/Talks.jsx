@@ -18,11 +18,11 @@ const Talks = () => {
         <BlurIn
           word="PODCASTS"
           duration={1}
-          className="text-center sm:text-start text-4xl sm:text-6xl md:text-7xl lg:text-8xl gradient-title font-extrabold tracking-tighter"
+          className="text-center sm:text-start gradient-title-2 font-extrabold tracking-tighter"
         />
         <TypingAnimation 
           duration={70} 
-          className='text-center sm:text-start text-2xl md:text-4xl tracking-tighter font-semibold py-2'
+          className='text-center sm:text-start text-base md:text-4xl tracking-tighter font-semibold py-2'
         >
           Insights and discussions on quantitative finance and trading
         </TypingAnimation>

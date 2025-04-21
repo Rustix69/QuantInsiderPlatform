@@ -32,6 +32,24 @@
     -webkit-text-fill-color: transparent;
 }
 
+.gradient-title-2 {
+    @media (min-width: 768px) {
+        font-size: 4.5rem;
+        line-height: 1.2;
+    }
+
+    @media (max-width: 1023px) {
+        font-size: 2rem;
+        line-height: 1.2;
+    }
+    font-family: "Poetsen One";
+    background: radial-gradient(circle,rgb(202, 130, 63) 10%, rgb(98, 152, 214) 85%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+}
+
 .poetsen-one-regular {
     font-family: "Poetsen One", sans-serif;
     font-weight: 400;
