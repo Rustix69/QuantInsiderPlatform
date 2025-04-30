@@ -75,64 +75,66 @@ export function ProfileForm() {
 
     return (
         <Form {...form}>
-            <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-3 sm:space-y-5 bg-sky-50 p-4 rounded-lg flex flex-col justify-center shadow-sm min-w-full md:min-w-fit md:w-1/3">
-                <FormField
-                    control={form.control}
-                    name="names"
-                    render={({ field }) => (
-                        <FormItem>
-                            <FormLabel>Your Name</FormLabel>
-                            <FormControl>
-                                <Input placeholder="Enter Your Name" className="bg-white border-gray-300 focus:border-blue-200 focus:ring-blue-200" {...field} />
-                            </FormControl>
-                            <FormMessage />
-                        </FormItem>
-                    )}
-                />
-                <FormField
-                    control={form.control}
-                    name="username"
-                    render={({ field }) => (
-                        <FormItem>
-                            <FormLabel>Email Id</FormLabel>
-                            <FormControl>
-                                <Input placeholder="Enter Your Email Id" className="bg-white border-gray-300 focus:border-blue-200 focus:ring-blue-200" {...field} />
-                            </FormControl>
-                            <FormMessage />
-                        </FormItem>
-                    )}
-                />
-                <FormField
-                    control={form.control}
-                    name="phone"
-                    render={({ field }) => (
-                        <FormItem>
-                            <FormLabel>Contact Number</FormLabel>
-                            <FormControl>
-                                <Input placeholder="Enter your Phone number" className="bg-white border-gray-300 focus:border-blue-200 focus:ring-blue-200" {...field} />
-                            </FormControl>
-                            <FormMessage />
-                        </FormItem>
-                    )}
-                />
-                <FormField
-                    control={form.control}
-                    name="bio"
-                    render={({ field }) => (
-                        <FormItem>
-                            <FormLabel>Query</FormLabel>
-                            <FormControl>
-                                <Textarea
-                                    placeholder="Tell us a little bit about your query"
-                                    className=" resize-none bg-white border-gray-300 focus:border-blue-200 focus:ring-blue-200"
-                                    {...field}
-                                />
-                            </FormControl>
-                            <FormMessage />
-                        </FormItem>
-                    )}
-                />
-                <Button type="submit" className="flex justify-center">Contact Us</Button>
+            <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-5 sm:space-y-6 bg-sky-50 p-6 sm:p-8 rounded-lg flex flex-col justify-between shadow-sm w-full min-h-[600px]">
+                <div className="space-y-5">
+                    <FormField
+                        control={form.control}
+                        name="names"
+                        render={({ field }) => (
+                            <FormItem>
+                                <FormLabel>Your Name</FormLabel>
+                                <FormControl>
+                                    <Input placeholder="Enter Your Name" className="bg-white border-gray-300 focus:border-blue-200 focus:ring-blue-200" {...field} />
+                                </FormControl>
+                                <FormMessage />
+                            </FormItem>
+                        )}
+                    />
+                    <FormField
+                        control={form.control}
+                        name="username"
+                        render={({ field }) => (
+                            <FormItem>
+                                <FormLabel>Email Id</FormLabel>
+                                <FormControl>
+                                    <Input placeholder="Enter Your Email Id" className="bg-white border-gray-300 focus:border-blue-200 focus:ring-blue-200" {...field} />
+                                </FormControl>
+                                <FormMessage />
+                            </FormItem>
+                        )}
+                    />
+                    <FormField
+                        control={form.control}
+                        name="phone"
+                        render={({ field }) => (
+                            <FormItem>
+                                <FormLabel>Contact Number</FormLabel>
+                                <FormControl>
+                                    <Input placeholder="Enter your Phone number" className="bg-white border-gray-300 focus:border-blue-200 focus:ring-blue-200" {...field} />
+                                </FormControl>
+                                <FormMessage />
+                            </FormItem>
+                        )}
+                    />
+                    <FormField
+                        control={form.control}
+                        name="bio"
+                        render={({ field }) => (
+                            <FormItem>
+                                <FormLabel>Query</FormLabel>
+                                <FormControl>
+                                    <Textarea
+                                        placeholder="Tell us a little bit about your query"
+                                        className="resize-none bg-white border-gray-300 focus:border-blue-200 focus:ring-blue-200 min-h-[150px]"
+                                        {...field}
+                                    />
+                                </FormControl>
+                                <FormMessage />
+                            </FormItem>
+                        )}
+                    />
+                </div>
+                <Button type="submit" className="flex justify-center mt-auto">Contact Us</Button>
             </form>
         </Form>
     )

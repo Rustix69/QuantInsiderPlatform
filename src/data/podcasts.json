@@ -21,7 +21,7 @@
     "description": "Join us for an exclusive free webinar, “Cracking the Code of Quant Trading Competitions with a Global Champion,” featuring Vaibhav Gupta —an IIT Delhi student who achieved the Global Rank 1 at WorldQuant’s IQC’23 and won Quant Quest. As the Founder of ARIES (Artificial Intelligence Society) at IIT Delhi, Vaibhav brings a wealth of experience and insights into the world of quantitative trading and machine learning. In this session, Vaibhav Gupta will: Share his journey to becoming a global champion; Discuss the strategies for quant trading competitions; Provide actionable tips for excelling in these fast-paced competitions.",
     "thumbnailUrl": "https://i.ytimg.com/vi/Up1YY52GrT8/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLCBsiERdSBsyB6FmnqSF0cn4uBqSA",
     "playLink": "https://www.youtube.com/watch?v=Up1YY52GrT8",
-    "type": "podcast"
+    "type": "seminar"
   },
   {
     "id": 4,
@@ -54,5 +54,13 @@
     "thumbnailUrl" : "https://i.ytimg.com/vi/TpMTVFdxjQI/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLDJKhkdnERg05-ojzUNDtpFkk5oKQ",
     "playLink": "https://youtu.be/TpMTVFdxjQI?si=y5dE4ejXAPKMpGGQ ",
     "type": "podcast"
+  },
+  {
+    "id": 8,
+    "title" : "Anton Vorobets, Next Generation Investment Framework",
+    "description" : "In this exclusive webinar, Anton Vorobets (Founder & CEO of Fortitudo Technologies) introduces the Next Generation Investment Framework — a powerful alternative to traditional portfolio construction methods like mean-variance optimization and Black-Litterman models.",
+    "thumbnailUrl" : "https://i.ytimg.com/vi/RqicDP6456w/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLArPjVbUizZwQwj5ja5Om0t5DhdAg",
+    "playLink" : "https://youtu.be/RqicDP6456w?si=Sd-7EOcw778tngx0",
+    "type": "seminar"
   }
 ]

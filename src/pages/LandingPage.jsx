@@ -16,7 +16,7 @@ import { NeonGradientCard } from '@/components/ui/neon-gradient-card';
 import { GallerySlider } from '@/components/GallerySlider';
 import { AlgoBulls } from '@/components/AlgoBulls';
 import About from '@/components/About';
-
+import Calcom from '@/components/calcom';
 
 const LandingPage = () => {
     // Image animation variants
@@ -277,14 +277,29 @@ const LandingPage = () => {
             </div>
 
 
-            {/* Contact Us */}
-            <div className='flex flex-col items-center justify-center item-centre px-3 mt-10 sm:mt-20' id="contact-us">
-                <h1 className='text-center text-black text-3xl md:text-4xl lg:text-6xl tracking-tighter font-extrabold p-4'>Contact Us</h1>
-                <ProfileForm />
+            {/* Contact and Meeting Section - Combined for side-by-side layout */}
+            <div className='mt-10 sm:mt-20 px-4 sm:px-8 lg:px-12'>
+                <h1 className='text-center text-black text-3xl md:text-4xl lg:text-6xl tracking-tighter font-extrabold p-4 mb-8' id="contact-us">Get In Touch</h1>
+                
+                {/* Container for both forms */}
+                <div className='flex flex-col lg:flex-row gap-8 lg:gap-12 justify-center'>
+                    {/* Contact Us Section */}
+                    <div className='w-full lg:w-1/2 flex flex-col items-center'>
+                        <h2 className='text-center text-black text-2xl md:text-3xl tracking-tighter font-bold mb-4'>Contact Us</h2>
+                        <div className='w-full max-w-lg'>
+                            <ProfileForm />
+                        </div>
+                    </div>
+                    
+                    {/* Book a Meeting Section */}
+                    <div className='w-full lg:w-1/2 flex flex-col items-center'>
+                        <h2 className='text-center text-black text-2xl md:text-3xl tracking-tighter font-bold mb-4'>Book a Meeting</h2>
+                        <div className='w-full bg-sky-50 p-4 rounded-lg shadow-sm' style={{ height: '600px' }}>
+                            <Calcom />
+                        </div>
+                    </div>
+                </div>
             </div>
-
-
-
         </>
     )
 }
