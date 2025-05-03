@@ -62,7 +62,7 @@ const Talks = () => {
         
         {/* Podcast List - full width container */}
         <div className="w-full">
-          {filteredPodcasts.map((podcast) => (
+          {[...filteredPodcasts].sort((a, b) => b.id - a.id).map((podcast) => (
             <PodcastCard key={podcast.id} podcast={podcast} />
           ))}
         </div>
