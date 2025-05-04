@@ -53,7 +53,7 @@ export function TimelineDemo() {
         <div>
           <p
             className="text-neutral-800 dark:text-neutral-200 text-sm md:text-lg font-bold mb-8">
-            Sponsor at QuantVision 2025: Fordham's Quantitative Conference & Data Summit, Fordham University, Gabelli School of Business, Lincoln Center Campus <br /><a href="https://www.rebellionresearch.com/quant-insider-to-sponsor-quantvision-2025-fordhams-quantitative-conference-data-summit" target="_blank" className="text-blue-600 hover:text-blue-800 dark:text-blue-400 dark:hover:text-blue-300 underline">Visit Now</a>
+            Sponsor at QuantVision 2025: Fordham's Quantitative Conference & Data Summit, Fordham University, Gabelli School of Business, Lincoln Center Campus <a href="https://www.rebellionresearch.com/quant-insider-to-sponsor-quantvision-2025-fordhams-quantitative-conference-data-summit" target="_blank" className="text-blue-600 hover:text-blue-800 dark:text-blue-400 dark:hover:text-blue-300 underline">Visit Now</a>
           </p>
           <div className="grid grid-cols-2 gap-4">
             <img
