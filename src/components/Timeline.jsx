@@ -27,7 +27,7 @@ export function TimelineDemo() {
         <div>
           <p
             className="text-neutral-800 dark:text-neutral-200 text-sm md:text-lg font-bold mb-8">
-            Sponsor at QuantVision 2025: Fordham’s Quantitative Conference & Data Summit
+            Sponsor at QuantVision 2025: Fordham's Quantitative Conference & Data Summit <br/> <p> Venue: Fordham University, Gabelli School of Business, Lincoln Center Campus</p> <br/><a href="https://www.rebellionresearch.com/quant-insider-to-sponsor-quantvision-2025-fordhams-quantitative-conference-data-summit" target="_blank" className="text-blue-600 hover:text-blue-800 dark:text-blue-400 dark:hover:text-blue-300 underline">Visit Now</a>
           </p>
           <div className="grid grid-cols-2 gap-4">
             <img
@@ -53,7 +53,7 @@ export function TimelineDemo() {
         <div>
           <p
             className="text-neutral-800 dark:text-neutral-200 text-sm md:text-lg font-bold mb-8">
-            Education Partners at LAQSA  Indian Institutional Quant Conference – Bengaluru Edition 2025
+            Education Partners at LAQSA  Indian Institutional Quant Conference – Bengaluru Edition 2025 <br /> <a href="https://www.indiaquant.in/product/iiqc-bengaluru-edition-2025/" target="_blank" className="text-blue-600 hover:text-blue-800 dark:text-blue-400 dark:hover:text-blue-300 underline">Register Now</a>
           </p>
           <div className="grid grid-cols-2 gap-4">
             <img
@@ -207,7 +207,7 @@ export function TimelineDemo() {
         <div>
           <p
             className="text-neutral-800 dark:text-neutral-200 text-sm md:text-lg font-bold mb-8">
-            Workshop on “Quant finance careers and Algo trading” at BITS Pilani HYD.
+            Workshop on "Quant finance careers and Algo trading" at BITS Pilani HYD.
           </p>
           <div className="grid grid-cols-2 gap-4">
             <img
@@ -245,7 +245,7 @@ export function TimelineDemo() {
         <div>
           <p
             className="text-neutral-800 dark:text-neutral-200 text-sm md:text-lg font-bold mb-8">
-            Workshop on “Introduction to quantitative finance” at IIT Dhanbad.
+            Workshop on "Introduction to quantitative finance" at IIT Dhanbad.
           </p>
 
           <div className="grid grid-cols-2 gap-4">
@@ -284,7 +284,7 @@ export function TimelineDemo() {
         <div>
           <p
             className="text-neutral-800 dark:text-neutral-200 text-sm md:text-lg font-bold mb-8">
-            Panelist at Christ University. Workshop at Christ Univeristy Bangalore on “Price Action Trading and technical analysis”.
+            Panelist at Christ University. Workshop at Christ Univeristy Bangalore on "Price Action Trading and technical analysis".
           </p>
           <div className="grid grid-cols-2 gap-4">
             <img
@@ -322,7 +322,7 @@ export function TimelineDemo() {
         <div>
           <p
             className="text-neutral-800 dark:text-neutral-200 text-sm md:text-lg font-bold mb-8">
-            Workshop at IIT Delhi on “Career in Quantiative Finance”.
+            Workshop at IIT Delhi on "Career in Quantiative Finance".
           </p>
           <div className="grid grid-cols-2 gap-4">
             <img
