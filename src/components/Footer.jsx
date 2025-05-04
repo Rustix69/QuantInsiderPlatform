@@ -1,4 +1,4 @@
-import { Linkedin, Twitter, Instagram, MapPin } from 'lucide-react';
+import { Linkedin, Twitter, Instagram, MapPin, Youtube } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 export const Footer = () => {
@@ -63,6 +63,12 @@ export const Footer = () => {
                                 target="_blank"
                                 rel="noopener noreferrer">
                                 <Instagram size={20} />
+                            </a>
+                            <a href="https://www.youtube.com/@QuantInsider"
+                                className="text-white hover:text-gray-300 transition-colors"
+                                target="_blank"
+                                rel="noopener noreferrer">
+                                <Youtube size={20} />
                             </a>
                         </div>
                     </div>
