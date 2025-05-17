@@ -62,5 +62,13 @@
     "thumbnailUrl" : "https://i.ytimg.com/vi/RqicDP6456w/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLArPjVbUizZwQwj5ja5Om0t5DhdAg",
     "playLink" : "https://youtu.be/RqicDP6456w?si=Sd-7EOcw778tngx0",
     "type": "seminar"
+  },
+  {
+    "id": 9,
+    "title" : "How to Trade Volatility Like a Hedge Fund | Dislocations & Opportunities w/ Benn Eifert",
+    "description": "Welcome everyone to today's podcast episode! I'm incredibly excited to host Benn Eifert, founder and CIO of QVR Advisors, one of the sharpest minds in volatility trading.\n\nIn this special 1 hour 20 minutes session, we'll delve deep into the fascinating and intricate world of volatility. We'll cover a wide range of essential topics, including:\n\nVolatility surface modeling and mispricings – understanding how traders interpret and exploit irregularities in implied volatility across strikes and maturities.\n\nOptions pricing theory vs. practice – exploring where theoretical models meet real-world market dynamics, and where they diverge significantly.\n\nStructural volatility flows in the market – discussing who the key players driving volatility markets are and how their activities shape pricing and opportunities.\n\nDealer and hedger dynamics – examining how dealer positions influence market volatility and the subtle mechanics behind their hedging activities.\n\nMacro and geopolitical volatility drivers – analyzing how recent geopolitical events and macroeconomic shifts are impacting volatility markets today.",
+    "thumbnailUrl" : "https://i.ytimg.com/vi/ABnXyxJe_e8/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLDncBF5EKXscV2H4uADEx7gcxdf2w",
+    "playLink" : "https://youtu.be/ABnXyxJe_e8?si=pgD-555hfU7GSbt6",
+    "type" : "podcast"
   }
 ]
