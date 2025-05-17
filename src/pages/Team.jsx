@@ -2,8 +2,9 @@ import React from 'react'
 import TeamCard from '@/components/TeamCard'
 import GradualSpacing from '@/components/ui/gradual-spacing'
 import { NeonGradientCard } from '@/components/ui/neon-gradient-card'
-
+import { useNavigate } from 'react-router-dom';
 const Team = () => {
+  const navigate = useNavigate();
   // Actual team data with real information
   const leadershipTeam = [
     {
@@ -100,13 +101,15 @@ const Team = () => {
         <div className="w-16 h-1 bg-gradient-to-r from-indigo-500 to-purple-500 mx-auto mb-8 rounded-full"></div>
         <div className="grid grid-cols-1 gap-6 max-w-2xl mx-auto">
           {leadershipTeam.map((member, index) => (
-            <TeamCard
-              key={index}
-              image={member.image}
-              name={member.name}
-              role={member.role}
-              description={member.description}
-            />
+            <div key={index} className="max-w-xl mx-auto">
+              <TeamCard
+                image={member.image}
+                name={member.name}
+                role={member.role}
+                description={member.description}
+                imageSize="small"
+              />
+            </div>
           ))}
         </div>
       </div>
@@ -159,7 +162,7 @@ const Team = () => {
             Become part of Quant Insider's mission to democratize access to advanced education, 
             Algo trading technologies, and one-on-one mentorship in quantitative finance.
           </p>
-          <button className="px-8 py-3 bg-white text-indigo-900 font-semibold rounded-full hover:bg-indigo-100 transition duration-300">
+          <button onClick={() => navigate('/#contact-us')} className="px-8 py-3 bg-white text-indigo-900 font-semibold rounded-full hover:bg-indigo-100 transition duration-300">
             Get in Touch
           </button>
         </div>

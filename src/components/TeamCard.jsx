@@ -1,6 +1,6 @@
 import React from 'react'
 
-const TeamCard = ({ image, name, role, description }) => {
+const TeamCard = ({ image, name, role, description, imageSize = 'full' }) => {
     return (
         <div className="team-card w-full transform transition duration-300 hover:scale-102 hover:shadow-xl">
             <div className="card-content relative backdrop-blur-lg rounded-xl shadow-lg border border-gray-200 overflow-hidden animate-fade-in-bounce hover:border-indigo-300">
@@ -8,7 +8,7 @@ const TeamCard = ({ image, name, role, description }) => {
                     <img
                         src={image}
                         alt={name}
-                        className="w-full h-full object-cover object-center transition-transform duration-500 hover:scale-105"
+                        className={`${imageSize === 'small' ? 'w-3/4 h-3/4' : 'w-full h-full'} object-cover object-center transition-transform duration-500 hover:scale-105`}
                     />
                 </div>
                 <div className="p-6 text-center bg-white bg-opacity-90">
