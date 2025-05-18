@@ -74,12 +74,12 @@ export function TimelineDemo() {
     },
     {
       title: "IIQC",
-      dates: "16th May 2025 (Upcoming)",
+      dates: "16th May 2025",
       content: (
         <div>
           <p
             className="text-neutral-800 dark:text-neutral-200 text-sm md:text-lg font-bold mb-8">
-            Education Partners at LAQSA  Indian Institutional Quant Conference – Bengaluru Edition 2025 <br /> <a href="https://www.indiaquant.in/product/iiqc-bengaluru-edition-2025/" target="_blank" className="text-blue-600 hover:text-blue-800 dark:text-blue-400 dark:hover:text-blue-300 underline">Register Now</a>
+            Education Partners at LAQSA  Indian Institutional Quant Conference – Bengaluru Edition 2025
           </p>
           <div className="grid grid-cols-2 gap-4">
             <img
