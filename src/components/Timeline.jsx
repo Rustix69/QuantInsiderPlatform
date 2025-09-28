@@ -21,8 +21,60 @@ export function TimelineDemo() {
 
   const data = [
     {
+      title: "Quant Strats",
+      dates: "14 - 15 Oct 2025",
+      content: (
+        <div>
+          <p
+            className="text-neutral-800 dark:text-neutral-200 text-sm md:text-lg font-bold mb-8">
+            Quant insider is Partner for Quant Strats Europe 2025 <a href="https://www.alphaevents.com/events-quantstratsuk" target="_blank" className="text-blue-600 hover:text-blue-800 dark:text-blue-400 dark:hover:text-blue-300 underline"> Visit Now</a>
+          </p>
+          <div className="grid grid-cols-2 gap-4">
+            <img
+              src="./eventsection/Strats/img01.png"
+              alt="Fow event"
+              width="100%"
+              height="100%"
+              className="rounded-lg object-cover h-28 md:h-44 lg:h-72 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]" />
+            <img
+              src="./eventsection/Strats/img02.png"
+              alt="Fow event"
+              width="100%"
+              height="100%"
+              className="rounded-lg object-cover h-28 md:h-44 lg:h-72 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]" />
+          </div>
+        </div>
+      )
+    },
+    {
+      title: "Trading India 2025",
+      dates: "24 Sep 2025",
+      content: (
+        <div>
+          <p
+            className="text-neutral-800 dark:text-neutral-200 text-sm md:text-lg font-bold mb-8">
+            Quant Insider was Supporting organisation for FOW - Trading India 2025 at The St. Regis Mumbai.
+          </p>
+          <div className="grid grid-cols-2 gap-4">
+            <img
+              src="./eventsection/Fow/img01.png"
+              alt="Fow event"
+              width="100%"
+              height="100%"
+              className="rounded-lg object-cover h-28 md:h-44 lg:h-72 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]" />
+            <img
+              src="./eventsection/Fow/img02.png"
+              alt="Fow event"
+              width="100%"
+              height="100%"
+              className="rounded-lg object-cover h-28 md:h-44 lg:h-72 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]" />
+          </div>
+        </div>
+      )
+    },
+    {
       title: "Cornell University",
-      dates: "19 Sep 2025 (Upcoming)",
+      dates: "19 Sep 2025",
       content: (
         <div>
           <p
@@ -48,7 +100,7 @@ export function TimelineDemo() {
     },
     {
       title: "Palermo, Italy",
-      dates: "24 - 26 Sep 2025 (Upcoming)",
+      dates: "24 - 26 Sep 2025",
       content: (
         <div>
           <p
