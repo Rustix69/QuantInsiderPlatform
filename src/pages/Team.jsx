@@ -51,6 +51,15 @@ const Team = () => {
     }
   ]
 
+  const instructors = [
+    {
+      image: "/teams/nick.png",
+      name: "Dr. Nick Firoozye",
+      role: "Instructor",
+      description: "Ex- Citadel, Exodus Point, Sanford Bernstein.\n\nDr. Nick Firoozye is a mathematician with over 20 years of experience in the Quant finance industry, spanning both buy-side and sell-side firms.\n\nHe began his career at Lehman Brothers, where he worked on MBS/ABS modeling and later moved into senior roles in Quant Research and Strategy at Goldman Sachs and Deutsche Bank.\n\nHis expertise also extended to asset management and hedge funds, with positions at Sanford Bernstein, Citadel, and Exodus Point, focusing on areas such as Quantitative Strategy, Relative Value Trading, and Asset Allocation."
+    }
+  ]
+
   return (
     <div className="flex flex-col items-center bg-gradient-to-b from-gray-50 to-gray-100 overflow-hidden">
       {/* Team Hero Section */}
@@ -123,6 +132,26 @@ const Team = () => {
         <div className="w-16 h-1 bg-gradient-to-r from-indigo-500 to-purple-500 mx-auto mb-8 rounded-full"></div>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
           {advisoryBoard.map((member, index) => (
+            <TeamCard
+              key={index}
+              image={member.image}
+              name={member.name}
+              role={member.role}
+              description={member.description}
+            />
+          ))}
+        </div>
+      </div>
+
+      {/* Instructors */}
+      <div className="w-full px-5 sm:px-16 mt-24">
+        <GradualSpacing
+          className="text-center text-3xl font-extrabold tracking-tighter text-indigo-800 md:text-6xl font-serif mb-4"
+          text="Instructors"
+        />
+        <div className="w-16 h-1 bg-gradient-to-r from-indigo-500 to-purple-500 mx-auto mb-8 rounded-full"></div>
+        <div className="grid grid-cols-1 gap-8 max-w-2xl mx-auto">
+          {instructors.map((member, index) => (
             <TeamCard
               key={index}
               image={member.image}
