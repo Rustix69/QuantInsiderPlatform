@@ -116,7 +116,6 @@ const Team = () => {
                 name={member.name}
                 role={member.role}
                 description={member.description}
-                imageSize="small"
               />
             </div>
           ))}
@@ -138,6 +137,7 @@ const Team = () => {
               name={member.name}
               role={member.role}
               description={member.description}
+              imageSize="small"
             />
           ))}
         </div>
@@ -158,6 +158,7 @@ const Team = () => {
               name={member.name}
               role={member.role}
               description={member.description}
+              imageSize="small"
             />
           ))}
         </div>
@@ -178,6 +179,7 @@ const Team = () => {
               name={member.name}
               role={member.role}
               description={member.description}
+              imageSize="small"
             />
           ))}
         </div>
